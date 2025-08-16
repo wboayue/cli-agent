@@ -50,10 +50,10 @@ Type 'exit', 'quit', or 'q' to quit.
 
 You> Help me analyze this data
 > Analyzing request...
-� Breaking down the task...
-8 Processing components
-9 Generating response...
- Task completed successfully
+⚙ Breaking down the task...
+✓ Processing components
+ℹ Generating response...
+✅ Task completed successfully
 
 ==================================================
 RESULT:
@@ -179,9 +179,9 @@ class TaskAgent(Agent):
 The framework provides several status types for different states:
 
 - `StatusType.THINKING` (>) - Initial analysis/planning phase
-- `StatusType.PROCESSING` (�) - Active processing
-- `StatusType.SUCCESS` () - Successful completion
-- `StatusType.ERROR` (L) - Error occurred
+- `StatusType.PROCESSING` (⚙) - Active processing
+- `StatusType.SUCCESS` (✅) - Successful completion
+- `StatusType.ERROR` (❌) - Error occurred
 - `StatusType.INFO` (9) - Informational updates
 
 ## API Reference
